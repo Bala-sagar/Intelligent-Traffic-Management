@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analytics</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/Analysis.css') }}"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <nav class="sidebar">
+        <div class="logo">Logo</div>
+
+        <ul>
+          <li>
+            <a
+              href="/helmet_compliance"
+              class="nav-link"
+              data-file="Penalties.html"
+            >
+              <div class="img">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="#fff"
+                  class="bi bi-bicycle"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4 4.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1v.5h4.14l.386-1.158A.5.5 0 0 1 11 4h1a.5.5 0 0 1 0 1h-.64l-.311.935.807 1.29a3 3 0 1 1-.848.53l-.508-.812-2.076 3.322A.5.5 0 0 1 8 10.5H5.959a3 3 0 1 1-1.815-3.274L5 5.856V5h-.5a.5.5 0 0 1-.5-.5zm1.5 2.443-.508.814c.5.444.85 1.054.967 1.743h1.139L5.5 6.943zM8 9.057 9.598 6.5H6.402L8 9.057zM4.937 9.5a1.997 1.997 0 0 0-.487-.877l-.548.877h1.035zM3.603 8.092A2 2 0 1 0 4.937 10.5H3a.5.5 0 0 1-.424-.765l1.027-1.643zm7.947.53a2 2 0 1 0 .848-.53l1.026 1.643a.5.5 0 1 1-.848.53L11.55 8.623z"
+                  />
+                </svg>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="/signal" class="nav-link" data-file="Live.html">
+              <div class="img">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="#fff"
+                  class="bi bi-stoplights"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm0 4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm1.5 2.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+                  />
+                  <path
+                    d="M4 2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2h2c-.167.5-.8 1.6-2 2v2h2c-.167.5-.8 1.6-2 2v2h2c-.167.5-.8 1.6-2 2v1a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-1c-1.2-.4-1.833-1.5-2-2h2V8c-1.2-.4-1.833-1.5-2-2h2V4c-1.2-.4-1.833-1.5-2-2h2zm2-1a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H6z"
+                  />
+                </svg>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="/cellphone" class="nav-link" data-file="Alert.html">
+              <div class="img">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="#fff"
+                  class="bi bi-telephone-inbound"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0zm-12.2 1.182a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                  />
+                </svg>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="../analytics" class="nav-link" data-file="Analytics.html">
+              <div class="img img-active">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="28"
+                  fill="currentColor"
+                  class="bi bi-bar-chart-line-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2z"
+                  />
+                </svg>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="../alert" class="nav-link" data-file="Analytics.html">
+              <div class="img">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="#fff"
+                  class="bi bi-exclamation-triangle-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                  />
+                </svg>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="container">
+        <div class="topbar">
+          <div class="current-user">
+            <img class="user" src="../assets/user.png" alt="" />
+            <span class="user-name">System admin</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 14 14"
+              fill="none"
+            >
+              <path
+                d="M2.5 6L7 10.5L11.5 6"
+                stroke="#050214"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="content-container" id="content-container">
+          <!-- Content will be loaded here -->
+
+          <div class="main-analysis">
+            <div class="heading">
+              <h2>Analysis / Ticket Analytics</h2>
+            </div>
+
+            <div class="bg">
+              <div class="chart-legend">
+                <h3>Last Week Voilations</h3>
+                <di class="time-selector">
+                  <select class="time" name="time" id="week">
+                    <option value="Ticket Analytics">Last Week</option>
+                    <option value="saab">Last Month</option>
+                    <option value="mercedes">Last Year</option>
+                  </select>
+                </di>
+              </div>
+              <canvas id="myChart" width="900px" height="300px"></canvas>
+            </div>
+
+            <div class="area-select">
+              <select name="cars" id="locations">
+                <option value="Ticket Analytics">Ticket Analytics</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+              </select>
+            </div>
+            <button class="view-btn">View</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const ctx = document.getElementById("myChart");
+        new Chart(ctx, {
+          type: "bar",
+          data: {
+            labels: ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"],
+            datasets: [
+              {
+                label: "Last week violation",
+                data: [26, 23, 8, 30, 4, 4, 13],
+                borderWidth: 1,
+                backgroundColor: "#fff",
+              },
+            ],
+          },
+          options: {
+            scales: {
+              x: {
+                beginAtZero: true,
+                position: "bottom",
+                ticks: {
+                  font: {
+                    size: 16,
+                  },
+                },
+              },
+              y: {
+                beginAtZero: true,
+                position: "left",
+                ticks: {
+                  font: {
+                    size: 16,
+                  },
+                },
+              },
+            },
+            plugins: {
+              legend: {
+                display: false,
+              },
+            },
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
