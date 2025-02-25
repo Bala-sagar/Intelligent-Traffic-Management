@@ -74,10 +74,10 @@ ITMS detects:
 ---
 
 ## 🔮 Future Enhancements  
-✨ **Integration with IoT sensors for live traffic updates**  
-✨ **Mobile App for real-time violation alerts**  
-✨ **Payment gateway integration for automatic fines**  
-✨ **Predictive Analytics for traffic congestion management**  
+-> **Integration with IoT sensors for live traffic updates**  
+-> **Mobile App for real-time violation alerts**  
+-> **Payment gateway integration for automatic fines**  
+-> **Predictive Analytics for traffic congestion management**  
 
 ---
 
